@@ -1,0 +1,15 @@
+region = "ap-south-1"
+vpc_name = "my_vpc"
+subnet_name = "my_subnet"
+cidr_vpc = "10.0.0.0/16"
+cidr_subnet = "10.0.1.0/24"
+availability_zone = "ap-south-1a"
+sg_name = "my_security_group"
+igw_name = "my_internet_gateway"
+route_name = "my_route"
+instance_type = "t2.micro"
+key_name = "DevOps"
+instance_count = 1
+ec2_name = "my_ec2_instance"
+root_volume_size = 20
+root_volume_type = "gp2"
